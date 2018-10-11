@@ -1,0 +1,272 @@
+{
+   "GENERAL": {
+        "MAIN-TITLE": "Flowable",
+        "ERROR": {
+            "GENERIC": "对不起, 发生错误...",
+            "UNKNOWN": "对不起, 执行请求的操作时发生未知错误.",
+            "BAD_REQUEST": "执行所请求的操作时发生错误",
+            "NOT_FOUND": "您想要访问的资源不存在",
+            "UNAUTHORIZED": "您应该先登录再执行所请求的操作.",
+            "FORBIDDEN": "不允许执行您所请求的操作",
+            "INTERNAL_SERVER_ERROR": "对不起, 执行请求的操作时发生未知异常."
+        },
+        "ACTION": {
+            "LOGOUT": "退出",
+            "HELP": "入门指南",
+            "EDIT-PROFILE": "编辑 简介",
+            "SAVE": "保存",
+            "CANCEL": "取消",
+            "CLOSE": "关闭",
+            "DEPLOY": "部署",
+            "ABOUT": "关于Flowable"
+        },
+        "MESSAGE": {
+            "SELECT-PEOPLE-HELP": "使用 &uparrow; and &downarrow; 来选择和按下enter键确认",
+            "SELECT-GROUP-HELP": "使用 &uparrow; and &downarrow; 来选择和按下enter键确认",
+            "SELECT-GROUP-SEARCH-PLACEHOLDER": "组搜索",
+            "SELECT-GROUP-NO-MATCHING-RESULTS": "使用上面的搜索框来查找组."
+        },
+        "TITLE": {
+            "MATCHING-PEOPLE": "匹配人员",
+            "SELECT-GROUP": "选择组",
+            "MATCHING-GROUPS": "匹配组"
+        }
+    },
+    "LOGIN": {
+        "TITLE": "登录",
+        "USERNAME": "用户名",
+        "USERNAME-PLACEHOLDER": "输入用户名",
+        "PASSWORD": "密码",
+        "PASSWORD-PLACEHOLDER": "输入密码",
+        "INVALID-CREDENTIALS": "无效认证信息",
+        "ACTION": {
+            "CONFIRM": "登录"
+        }
+    },
+    "ACCOUNT": {
+        "ACTIVATE": {
+          "TITLE": "激活账户",
+          "ACTIVATING-MESSAGE": "抓紧 {{userFullName}} ，我们激活您的帐户...",
+          "SUCCESS-MESSAGE": "您的账号已经被激活. 请在下面签名，开始设计和运行流程",
+          "FAILURE-MESSAGE": "您的帐户不能被激活. 要么已经被激活要么激活链接已经过期."
+        },
+
+        "RESET-PASSWORD-REQUEST": {
+          "MESSAGE": "忘记密码? 输入您的电子邮件地址，以接收电子邮件来重置您的密码.",
+          "TITLE": "重置密码",
+          "EMAIL": "邮件地址",
+          "EMAIL-PLACEHOLDER": "输入您的邮箱地址",
+          "SECURITY-SECTION": "安全检查",
+          "CONFIRM": "请求密码重置",
+          "SUCCESS-MESSAGE": "您将很快收到一封邮件，其中有一个链接来重置您的密码.",
+          "ERROR": {
+              "UNEXISTING-USER": "使用给定电子邮件地址的用户不存在."
+          }
+        },
+
+        "RESET-PASSWORD": {
+          "TITLE": "重置密码",
+          "PASSWORD": "密码",
+          "PASSWORD-CONFIRM": "确认密码",
+          "PASSWORD-PLACEHOLDER": "输入新密码",
+          "PASSWORD-CONFIRM-PLACEHOLDER": "确认新密码",
+          "CONFIRM": "改变密码",
+          "LOADING": "重置密码中...",
+          "SUCCESS-MESSAGE": "您的密码已经被改变.",
+          "LOGIN": "现在登录",
+          "FAILURE-MESSAGE": "您的密码不能被重置. 重置链接已经失效或过期."
+        }
+    },
+    "IDM": {
+      "GENERAL" : {
+        "MAIN-TITLE": "Flowable - Identity Management",
+        "NAVIGATION": {
+            "PROFILE": "个人",
+            "USER-MGMT": "用户",
+            "GROUP-MGMT": "组",
+            "PRIVILEGE-MGMT": "权限"
+        },
+        "ACTION": {
+          "CANCEL": "取消",
+          "CREATE": "创建",
+          "SAVE": "保存",
+          "CLOSE": "关闭",
+          "LOGOUT": "退出",
+          "ABOUT": "关于 Flowable"
+        },
+        "ERROR": {
+            "GENERIC": "对不起, 发生错误...",
+            "UNKNOWN": "对不起, 执行请求的操作时发生未知错误.",
+            "BAD_REQUEST": "执行所请求的操作时发生错误",
+            "NOT_FOUND": "您想要访问的资源不存在",
+            "UNAUTHORIZED": "您应该先登录再执行所请求的操作.",
+            "FORBIDDEN": "不允许执行您所请求的操作",
+            "INTERNAL_SERVER_ERROR": "对不起, 执行请求的操作时发生未知异常."
+        }
+      },
+      "USER-MGMT": {
+        "TITLE": "匹配用户",
+         "CREATE-USER": "创建用户",
+         "NAME-SEARCH": "使用名称搜索",
+         "COMPANY": "公司",
+         "STATUS": "状态",
+         "ACCOUNT": "账户类型",
+         "ACTIONS": "选择动作",
+         "CHANGE-STATUS": "改变状态",
+         "CHANGE-ACCOUNT-TYPE": "改变账户类型",
+         "CHANGE-PASSWORD": "改变密码",
+         "EDIT-USER": "改变明细",
+         "DELETE-USERS": "删除",
+         "TOTAL-USERS": "总共",
+         "INACTIVE-USERS": "未激活",
+         "ENTERPRISE-USERS": "企业",
+         "ACTIVE-USERS": "已激活",
+         "DELETED-USERS": "已删除",
+         "ORDER-BY": "排序",
+         "SHOW-NEXT": "显示下",
+         "SHOW-PREVIOUS": "显示上",
+         "NO-MATCHING-USERS": "发现没有匹配的用户",
+         "MATCHING-USERS": "发现 {{total | number}} 个匹配的用户 , 显示 {{start + 1}} 到 {{start + size}}",
+         "ID": "ID",
+         "EMAIL": "邮箱",
+         "NAME": "名称",
+         "CREATED": "已创建",
+         "TYPE": "类型",
+         "EXTERNAL-ID": "External id",
+         "LAST-SYNC-TIME": "最近更新",
+         "FILTERS": {
+             "STATUS-ANY": "任意状态",
+             "STATUS-ACTIVE": "激活",
+             "STATUS-INACTIVE": "未激活",
+             "STATUS-PENDING": "待定",
+             "STATUS-DELETED": "已删除",
+             "TYPE-ANY": "任意类型",
+             "SORT-DATE-NEWEST": "创建日期, 最新",
+             "SORT-DATE-OLDEST": "创建日期, 最旧",
+             "SORT-EMAIL-A": "邮件, A-Z",
+             "SORT-EMAIL-Z": "邮件, Z-A",
+             "SORT-ID-A": "用户ID, A-Z",
+             "SORT-ID-Z": "用户ID, Z-A"
+         },
+         "POPUP": {
+             "CREATE-TITLE": "创建用户",
+             "EDIT-TITLE": "编辑用户详情",
+             "CREATE-ID": "用户 id",
+             "CREATE-EMAIL": "邮箱",
+             "CREATE-INVALID-EMAIL": "无效的邮箱",
+             "CREATE-PASSWORD": "密码",
+             "CREATE-FIRSTNAME": "名称",
+             "CREATE-LASTNAME": "姓",
+             "CREATE-TENANT": "居住地",
+             "CREATE-COMPANY": "公司",
+             "CREATE-STATUS": "状态",
+             "CREATE-TYPE": "类型",
+             "BULK-UPDATE-TITLE": "批量更新用户",
+             "BULK-UPDATE-NEW-STATUS": "新状态:",
+             "BULK-UPDATE-NEW-TYPE": "新账户类型:",
+             "BULK-UPDATE-EMAIL-NOTIFICATIONS": "为状态变化发送电子邮件通知",
+             "BULK-UPDATE-STATUS-USERS": "您将会更新 {{length}} 用户的状态:",
+             "BULK-UPDATE-TYPE-USERS": "您将更新{{length}} 用户的帐户类型:",
+             "BULK-UPDATE-CANCEL": "取消并关闭",
+             "BULK-UPDATE-CONFIRM": "更新用户",
+             "BULK-UPDATE-PASSWORD-TITLE": "改变密码",
+             "BULK-UPDATE-PASSWORD": "密码",
+             "BULK-UPDATE-PASSWORD-REPEAT": "重置密码",
+             "BULK-UPDATE-PASSWORD-CONFIRM": "修改"
+         }
+      },
+      "FUNCTIONAL-GROUP-MGMT": {
+        "CREATE": "创建组",
+        "NO-GROUPS": "未发现组",
+        "NO-SELECTION": "从左边的列表中选择一个组",
+        "SYNC-DETAILS": "同步信息",
+        "EXTERNAL-ID": "External id:",
+        "LAST-SYNC-TIME": "最近更新:",
+        "MEMBERS": "组成员",
+        "SUBGROUPS": "子组",
+        "NO-MEMBERS": "未发现用户",
+        "ADD-USER": "+ 添加用户",
+        "ADD-SUBGROUP": "+ 添加子组",
+        "NO-SUBGROUPS": "没有子组",
+        "USER-ADDED": "用户已被添加到组",
+        "INACTIVE": "停用",
+        "INACTIVE-DESCRIPTION": "这个组已经被停用了. 用户仍然可以完成当前分配给该组的任务，但是新的流程定义不能再使用这个组了.",
+        "ADD-POPOVER-TITLE": "选择用户",
+            "POPUP": {
+                "CREATE-TITLE": "创建组",
+                "CREATE-ID": "组 id",
+                "CREATE-NAME": "名称",
+                "DELETE-TITLE": "删除组",
+                "DELETE-DESCRIPTION": "你确定要删除这个组吗?",
+                "DELETE-CONFIRM": "确定",
+                "DEACTIVATE-TITLE": "停用组",
+                "DEACTIVATE-DESCRIPTION": "你确定要删除这个组吗? 这也会删除所有的子组. 注意：可以先把组停用，这样进程的任务就可以被正确地完成。等任务完成了，再单击删除按钮将完全删除组.",
+                "DELETE-MEMBER-TITLE": "删除组成员",
+                "DELETE-MEMBER-DESCRIPTION": "你确定你想要从组中删除这个用户?",
+                "ADD-MEMBER-TITLE": "添加用户",
+                "ADD-MEMBER-NO-USERS": "未发现用户",
+                "ADD-MEMBER-CONFIRM": "添加 ({{selectedUsers.length}})",
+                "ACTIVATE-TITLE": "激活组",
+                "ACTIVATE-DESCRIPTION": "再次激活这个组? 这意味着这个组将再次被分配到任务分配中。请注意，一个组的子组在默认情况下不会被激活.",
+                "ACTIVATE-CONFIRM": "激活",
+                "EDIT-TITLE": "编辑组"
+            }
+        },
+      "PRIVILEGE-MGMT": {
+          "access-idm": "访问身份认证管理应用",
+          "access-admin": "访问管理员应用",
+          "access-modeler": "访问模型应用",
+		  "access-task": "访问工作流应用",
+		  "access-rest-api": "访问REST API",
+          "NO-SELECTION": "没权限选择",
+          "USERS": "用户",
+          "GROUPS": "组",
+          "NO-USERS": "目前还没有用户添加。点击这里添加一个用户.",
+          "NO-GROUPS": "目前还没有任何组加入。点击这里添加一个组",
+          "ADD-USER": "添加用户",
+          "ADD-GROUP": "添加组",
+          "POPOVER-SELECT-USER-TITLE": "选择用户",
+          "POPOVER-SELECT-GROUP-TITLE": "选择组",
+          "GROUP-ID": "组 id",
+          "GROUP-NAME": "组名"
+      },
+      "PROFILE-MGMT": {
+         "CREATED": "注册自",
+         "CHANGE-PASSWORD": "修改密码",
+         "DETAILS": "详细信息",
+         "DETAILS-DESCRIPTION": "点击下面的任何一个字段来改变它们",
+         "FIRST-NAME": "名称",
+         "NOTHING-SET": "没有设置",
+         "LAST-NAME": "姓",
+         "EMAIL": "邮箱",
+         "COMPANY": "公司",
+         "GROUPS": "您的组",
+         "POPUP": {
+            "UPLOAD-PICTURE-TITLE": "改变头像",
+            "UPLOAD-PICTURE-DESCRIPTION": "请从您的计算机中选择一个图像，或者将它放在下面的区域中.",
+            "UPLOAD-PICTURE-CANCEL-UPLOAD": "取消上传",
+            "UPLOAD-PICTURE-DROPZONE": "将logo图片拖放到这",
+            "UPLOAD-PICTURE-NO-DROP": "您的浏览器不支持拖放",
+            "UPLOAD-PICTURE-ERROR": "错误",
+            "CHANGE-PASSWORD-TITLE": "修改密码啊",
+            "CHANGE-PASSWORD-ORIGINAL": "原密码",
+            "CHANGE-PASSWORD-NEW-PASSWORD": "新密码",
+            "CHANGE-PASSWORD-NEW-PASSWORD2": "重复新密码",
+            "CHANGE-PASSWORD-CONFIRM": "确定",
+            "CHANGE-PASSWORD-NOT-MATCHING": "密码不匹配",
+            "CHANGE-PASSWORD-INVALID": "无效密码"
+         }
+      },
+      "USERS": {
+        "TITLE": "用户管理",
+        "ACTION": {
+          "CREATE": "创建用户"
+        }
+      }
+    },
+    "INVOLVE-PEOPLE": {
+        "ACTION-SELECT": "选择",
+        "SEARCH-PLACEHOLDER": "按名称搜索",
+        "NO-MATCHING-RESULTS": "使用上面的搜索框来查找用户"
+    }
+}
