@@ -403,74 +403,74 @@
         },
         "HEADER": {
             "ID": "ID",
-            "NAME": "Name",
-            "DEPLOY-TIME": "Deploy time",
-            "CATEGORY": "Category",
+            "NAME": "名称",
+            "DEPLOY-TIME": "部署时间",
+            "CATEGORY": "类别",
             "TENANT": "Tenant"
         },
         "ACTION": {
-            "UPLOAD": "Upload process or package",
-            "DELETE": "Delete deployment"
+            "UPLOAD": "上传流程或包",
+            "DELETE": "删除发布"
         },
         "POPUP": {
             "UPLOAD": {
-                "DESCRIPTION": "Select a .bpmn, .bpmn20.xml process file to deploy or upload a package of processes (with assets) contained in .zip or .bar file.",
-                "DROPZONE": "Or drop a file here",
-                "NO-DROP": "File drop is not supported by your browser",
-                "CANCEL-UPLOAD": "Cancel upload",
-                "ERROR": "Could not upload this file"
+                "DESCRIPTION": "选择 .bpmn, .bpmn20.xml 流程文件部署 or 或者上传.zip/.bar格式的流程文件包文件.",
+                "DROPZONE": "或拖放在该区域",
+                "NO-DROP": "您的浏览器不支持拖放",
+                "CANCEL-UPLOAD": "取消上传",
+                "ERROR": "不能上传这文件"
             },
             "DELETE": {
-            	"CONFIRM-MESSAGE": "Delete deployment '{{name}}'?"
+            	"CONFIRM-MESSAGE": "删除发布 '{{name}}'?"
             	}
         }
     },
     "DEPLOYMENT": {
         "ID": "ID:",
-        "NAME": "Name:",
-        "TIME": "Deployment time:",
-        "CATEGORY": "Category:",
-        "PARENT-DEPLOYMENT-ID": "Parent deployment id:",
+        "NAME": "名称:",
+        "TIME": "发布时间:",
+        "CATEGORY": "类别:",
+        "PARENT-DEPLOYMENT-ID": "父发布 id:",
         "TENANTID": "Tenant identifier:",
-        "DEFINITIONS-MESSAGE": "This deployment has {{total}} process definitions, showing {{size}}.",
-        "DEFINITIONS-MESSAGE-EMPTY": "This deployment has no process definitions.",
+        "DEFINITIONS-MESSAGE": "该发布有 {{total}} 条流程定义, 显示 {{size}}条.",
+        "DEFINITIONS-MESSAGE-EMPTY": "该发布没有流程定义.",
         "TITLE": {
-            "DEFINITIONS": "Process Definitions",
-            "RESOURCES": "Resources"
+            "DEFINITIONS": "流程定义",
+            "RESOURCES": "资源"
         },
         "ACTION": {
-            "SHOW-ALL-DEFINITIONS": "Show all definitions"
+            "SHOW-ALL-DEFINITIONS": "显示所有定义"
         }
     },
     "JOB": {
         "TITLE": {
-            "MAIN": "Job {{id}}",
-            "EXCEPTION": "Exception"
+            "MAIN": "作业 {{id}}",
+            "EXCEPTION": "异常"
         },
         "ACTIONS": {
-            "EXECUTE": "Execute job",
-            "MOVE": "Move job",
-            "DELETE": "Delete job"
+            "EXECUTE": "执行作业",
+            "MOVE": "移动作业",
+            "DELETE": "删除作业"
         },
         "POPUP": {
             "DELETE-JOB": {
-                "TITLE": "Delete job '{{id}}'",
-                "MESSAGE": "Are you sure you want to delete job {{id}}?",
-                "CONFIRM": "Delete job"
+                "TITLE": "删除作业 '{{id}}'",
+                "MESSAGE": "您确定要删除作业 {{id}}?",
+                "CONFIRM": "删除作业"
             }
         },
         "ID": "ID:",
-        "EXECUTION-ID": "Execution ID:",
-        "PROCESS-INSTANCE": "Process instance:",
-        "PROCESS-DEFINITION": "Process definition:",
-        "CASE-INSTANCE": "Case instance:",
-        "CASE-DEFINITION": "Case definition:",
-        "DUEDATE": "Due date:",
+        "EXECUTION-ID": "执行 ID:",
+        "PROCESS-INSTANCE": "流程实例:",
+        "PROCESS-DEFINITION": "流程定义:",
+        "CASE-INSTANCE": "用例实例:",
+        "CASE-DEFINITION": "用例定义:",
+        "DUEDATE": "截止日期:",
         "RETRIES-LEFT": "Retries left:",
         "TENANT-ID": "Tenant:"
     },
     "JOBS": {
-        "TITLE": "Jobs",
+        "TITLE": "作业",
         "LIST-MESSAGE": "Showing {{size}} results, from a total of {{total}} matching jobs.",
         "LIST-MESSAGE-EMPTY": "No matching jobs.",
         "FILTER": {
