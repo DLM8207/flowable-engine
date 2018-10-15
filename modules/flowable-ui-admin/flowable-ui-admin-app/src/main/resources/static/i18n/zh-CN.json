@@ -1401,14 +1401,14 @@
         "CATEGORY": "类别",
         "TENANTID": "Tenant identifier:",
         "PARENT-DEPLOYMENT-ID": "Parent Deployment ID",
-        "DEFINITIONS-MESSAGE": "This deployment has {{total}} form definitions, showing {{size}}.",
-        "DEFINITIONS-MESSAGE-EMPTY": "This deployment has no form definitions.",
+        "DEFINITIONS-MESSAGE": "该发布有 {{total}} 个表单定义, 显示 {{size}}个.",
+        "DEFINITIONS-MESSAGE-EMPTY": "改部署没有表单定义.",
         "TITLE": {
-            "FORM-DEFINITIONS": "Form Definitions",
-            "RESOURCES": "Resources"
+            "FORM-DEFINITIONS": "表单定义",
+            "RESOURCES": "资源"
         },
         "ACTION": {
-            "SHOW-ALL-DEFINITIONS": "Show all form definitions"
+            "SHOW-ALL-DEFINITIONS": "显示所有表单定义"
         }
     },
     "FORM-INSTANCES": {
